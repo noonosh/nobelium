@@ -2,8 +2,8 @@ const BLOG = {
   title: "noonosh",
   author: "Nuriddin Islamov",
   email: "mail@noono.sh",
-  link: "https://noono.sh",
-  description: "Engineer, Vivid Enthusiast, Not A Dad Of Two.",
+  link: "https://noono.sh/me",
+  description: "just curious about tech",
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: "Europe/London", // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: "auto", // ['light', 'dark', 'auto'],
@@ -11,12 +11,12 @@ const BLOG = {
   lightBackground: "#ffffff", // use hex value, don't forget '#' e.g #fffefc
   darkBackground: "#18181B", // use hex value, don't forget '#'
   path: "", // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2018, // If leave this empty, current year will be used.
-  postsPerPage: 7,
+  since: 2020, // If leave this empty, current year will be used.
+  postsPerPage: 3,
   sortByDate: true,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
   ogImageGenerateURL:
     "https://og-image-craigary.vercel.app/%40noonosh.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg", // The link to generate OG image, don't end with a slash
   socialLink: "https://twitter.com/nuriddinislamov",
