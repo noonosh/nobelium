@@ -12,16 +12,16 @@ const BLOG = {
   darkBackground: "#18181B", // use hex value, don't forget '#'
   path: "", // leave this empty unless you want to deploy Nobelium in a folder
   since: 2020, // If leave this empty, current year will be used.
-  postsPerPage: 3,
+  postsPerPage: 7,
   sortByDate: true,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL:
     "https://og-image-craigary.vercel.app/%40noonosh.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg", // The link to generate OG image, don't end with a slash
   socialLink: "https://twitter.com/nuriddinislamov",
   seo: {
-    keywords: ["Blog", "Website", "Notion"],
+    keywords: ["Blog", "Engineering", "Notion"],
     googleSiteVerification: "", // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
