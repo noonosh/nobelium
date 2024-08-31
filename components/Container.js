@@ -39,18 +39,12 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
           property="og:url"
           content={meta.slug ? `${url}/${meta.slug}` : url}
         />
-        <meta
-          property="og:image"
-          content="https://og-image-craigary.vercel.app/%40noonosh.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg"
-        />
+        <meta property="og:image" content="https://noono.sh/og-photo.png" />
         <meta property="og:type" content={meta.type} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:title" content={meta.title} />
-        <meta
-          name="twitter:image"
-          content="https://og-image-craigary.vercel.app/%40noonosh.png?theme=dark&md=1&fontSize=150px&images=https%3A%2F%2Fnobelium.vercel.app%2Flogo-for-dark-bg.svg"
-        />
+        <meta name="twitter:image" content="https://noono.sh/og-photo.png" />
         {meta.type === "article" && (
           <>
             <meta property="article:published_time" content={meta.date} />
